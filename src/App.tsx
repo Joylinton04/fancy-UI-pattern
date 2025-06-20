@@ -17,9 +17,9 @@ const App = () => {
             "after:bg-[length:0.05em_0.05em]  after:text-transparent after:bg-clip-text",
              /* after: after:bg-clip-text after:text-transparent */
           )}
-          data-text={"Fancy UI Pattern"}
+          data-text={"Fancy UI Patterns"}
         >
-          Fancy UI Pattern
+          Fancy UI Patterns
         </h1>
       </div>
 
