@@ -34,7 +34,7 @@ const App = () => {
             firstColor: "#ff00aa",
             secondColor: "#00FFF1",
           }}>
-          <div className="bg-zinc-800 w-40 h-40 text-xs grid place-content-center font-bricolage">
+          <div className="bg-zinc-800 w-60 h-60 text-xs grid place-content-center font-bricolage">
             Lorem ipsu
           </div>
         </NeonGradientCard>
