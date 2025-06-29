@@ -1,10 +1,13 @@
 import React from "react";
 import { cn } from "./lib/utils";
 import NeonGradientCard from "./components/neon-gradient-card";
+import Flashlight from "./components/Flashlight";
 
 const App = () => {
   return (
-    <div className="px-6 font-manrope min-h-screen w-full bg-[#19181A] text-white">
+    <Flashlight 
+      className="px-6 font-manrope h-screen w-full bg-[#19181A] text-white"
+      >
       <div className="text-center text-6xl font-bold font-bricolage py-8 z-0 italic relative">
         <h1
           className={cn(
@@ -29,17 +32,23 @@ const App = () => {
           )}
         ></div>
 
-        <NeonGradientCard 
-        neonColors={{
+        <NeonGradientCard
+          neonColors={{
             firstColor: "#ff00aa",
             secondColor: "#00FFF1",
-          }}>
-          <div className="bg-zinc-800 w-60 h-60 text-xs grid place-content-center font-bricolage">
-            Lorem ipsu
+          }}
+        >
+          <div className="bg-zinc-800 w-40 h-40 text-xs grid place-content-center font-bricolage">
+            Lorem ipsum
           </div>
         </NeonGradientCard>
+
+        {/* <Flashlight>
+          <div className="w-40 h-40 text-xs grid place-content-center">Flashlight</div>
+        </Flashlight> */}
       </div>
-    </div>
+
+    </Flashlight>
   );
 };
 export default App;

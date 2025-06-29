@@ -72,7 +72,7 @@ const NeonGradientCard: React.FC<NeonGradientCardProp> = ({
           "after:block after:bg-red-500",
 
           "before:block before:bg-[linear-gradient(green)] before:blur-[var(--after-blur)]",
-          "before:content-[''] before:absolute before:inset-[-0.06em] before:-z-10",
+          "before:content-[''] before:absolute before:inset-[-0.09em] before:-z-10",
           // "before:bg-[length:10em_10em]"
         )}
       >
